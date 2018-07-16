@@ -182,6 +182,8 @@ eventbrite: "48006613072"          # optional: alphanumeric key for Eventbrite r
 {% comment %}
  SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
+{% comment %}
+
 <h2 id="surveys">Surveys</h2>
 
 {% if page.carpentry == "swc" %}
