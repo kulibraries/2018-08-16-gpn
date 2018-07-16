@@ -46,11 +46,6 @@ eventbrite: "48006613072"          # optional: alphanumeric key for Eventbrite r
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
-
 <h2 id="general">General Information</h2>
 
 {% comment %}
@@ -96,7 +91,7 @@ and our administrator may contact you if we need any extra information.</h4>
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>. Visitors to KU should consult KU Parking's <a href="http://parking.ku.edu/visitor-parking">information for visitors</a> and <a href="http://parking.ku.edu/sites/parking.drupal.ku.edu/files/files/parkingmap.pdf">map</a> (PDF).
 </p>
 {% endif %}
 
