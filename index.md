@@ -197,7 +197,7 @@ eventbrite: "48006613072"          # optional: alphanumeric key for Eventbrite r
 {% endif %}
 
 <hr/>
-
+{% endcomment %}
 
 {% comment %}
   SCHEDULE
@@ -216,6 +216,8 @@ eventbrite: "48006613072"          # optional: alphanumeric key for Eventbrite r
   {% include lc/schedule.html %}
 {% endif %}
 
+<hr/>
+
 {% comment %}
   Collaborative Notes
 
@@ -226,9 +228,11 @@ eventbrite: "48006613072"          # optional: alphanumeric key for Eventbrite r
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
 {% endcomment %}
+
+<h2 id="notes">Notes</h2>
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
-  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a>, called an Etherpad, for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
 
@@ -251,6 +255,8 @@ eventbrite: "48006613072"          # optional: alphanumeric key for Eventbrite r
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
+
+{% comment %}
 <h2 id="syllabus">Syllabus</h2>
 
 {% if page.carpentry == "swc" %}
@@ -262,6 +268,7 @@ eventbrite: "48006613072"          # optional: alphanumeric key for Eventbrite r
 {% endif %}
 
 <hr/>
+{% endcomment %}
 
 {% comment %}
 SETUP
