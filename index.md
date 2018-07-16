@@ -81,7 +81,7 @@ eventbrite: "48006613072"          # optional: alphanumeric key for Eventbrite r
 
   This block displays the address and links to maps showing directions
   if the latitude and longitude of the workshop have been set.  You
-  can use https://itouchmap.com/latlong.html to find the lat/long of an
+  can use http://itouchmap.com/latlong.html to find the lat/long of an
   address.
 {% endcomment %}
 {% if page.latlng %}
@@ -113,6 +113,8 @@ eventbrite: "48006613072"          # optional: alphanumeric key for Eventbrite r
 
   Modify the block below if there are any special requirements.
 {% endcomment %}
+
+
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
@@ -211,8 +213,6 @@ eventbrite: "48006613072"          # optional: alphanumeric key for Eventbrite r
   {% include lc/schedule.html %}
 {% endif %}
 
-<hr/>
-
 {% comment %}
   Collaborative Notes
 
@@ -250,8 +250,6 @@ eventbrite: "48006613072"          # optional: alphanumeric key for Eventbrite r
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
-
-{% comment %}
 <h2 id="syllabus">Syllabus</h2>
 
 {% if page.carpentry == "swc" %}
@@ -263,7 +261,6 @@ eventbrite: "48006613072"          # optional: alphanumeric key for Eventbrite r
 {% endif %}
 
 <hr/>
-{% endcomment %}
 
 {% comment %}
   SETUP
